@@ -1,24 +1,38 @@
 nav {
-    background-color: rgb(83, 145, 98);
+    background-color: rgb(11, 71, 26);
     padding: 10px;
 }
 
 nav a {
-    color:white;
+    color:rgb(235, 198, 130);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: rgb(83, 145, 98);
+    color: rgb(11, 71, 26);
+}
+
+main {
+    max-width: 840px;
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid rgb(11, 20, 17);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px rgb(116, 8, 22);
+}
+
+aside {
+   width: 840px;
+   margin: 2px;
+   border: 2px solid rgb(192, 79, 79); 
+   padding: 2px;
+   background-color: rgb(11, 71, 26);
+   color: rgb(235, 198, 130);
+   text-align: center;
 }
 
 aside img {
@@ -26,13 +40,13 @@ aside img {
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px rgb(224, 37, 37);
 }
 
 p { padding: 0;}
 
 footer {
     margin-top: 10px;
-    border-top: 5px solid rgb(83, 145, 98);
+    border-top: 5px solid rgb(11, 71, 26);
     text-align: center;
 }
