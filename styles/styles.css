@@ -38,6 +38,7 @@ main img {
 }
 
 aside {
+    position: relative;
     width: 840px;
     text-align: center;
 }
