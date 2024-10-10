@@ -6,7 +6,9 @@
 
 :root {
     --background-color: rgb(11, 71, 26);
-    --color: rgb(235, 198, 130);
+    --color: rgb(216, 216, 14);
+    --border: rgba(243, 217, 72, 0.74);
+    --box-shadow: rgb(224, 37, 37);
 }
 
 nav {
@@ -32,9 +34,9 @@ main img {
     float: right;
     width: 150px;
     height: auto;
-    border: 1px solid rgb(11, 20, 17);
+    border: 1px solid var(--border);
     padding: 2px;
-    box-shadow: 0 0 30px rgb(116, 8, 22);
+    box-shadow: 0 0 30px var(--box-shadow);
 }
 
 aside {
@@ -46,9 +48,9 @@ aside {
 aside img {
     width: 200px;
     height: auto;
-    border: 1px solid rgba(243, 217, 72, 0.74);
+    border: 1px solid var(--border);
     padding: 2px;
-    box-shadow: 0 0 30px rgb(224, 37, 37);
+    box-shadow: 0 0 30px var(--box-shadow);
 }
 
 aside h2 {
@@ -57,7 +59,9 @@ aside h2 {
     left: 355px;
 }
 
-p { padding: 0;}
+p {
+    padding: 0;
+}
 
 footer {
     margin-top: 10px;
@@ -68,8 +72,8 @@ footer {
 /* Class Selectors */
 .box {
     margin: 1rem;
-    border: 5px solid rgba(243, 209, 96, 0.63);
+    border: 5px solid var(--border);
     padding: 1rem;
-    background-color: rgb(9, 60, 73);
-    color:rgb(233, 168, 17);
+    background-color: var(--background-color);
+    color: var(--color);
 }
